@@ -1,0 +1,68 @@
+[
+  {
+    "timestamp": "2025-08-02T13:39:13.340580",
+    "prompt": "Give me a recipe using 1 ingredient",
+    "models_tested": [
+      "GPT-3.5",
+      "GPT-4",
+      "Claude"
+    ],
+    "judge_model": "GPT-4",
+    "evaluation_focus": "Creativity",
+    "scores": {
+      "GPT-3.5:": 8,
+      "GPT-4:": 9
+    },
+    "hallucinations": [],
+    "winner": "",
+    "costs": {
+      "GPT-3.5": 1.5,
+      "GPT-4": 90.0
+    }
+  },
+  {
+    "timestamp": "2025-08-02T13:45:53.709213",
+    "prompt": "Which country has the most probable chance to win the 2026 worldcup footabll",
+    "models_tested": [
+      "GPT-3.5",
+      "GPT-4",
+      "Mistral"
+    ],
+    "judge_model": "GPT-4",
+    "evaluation_focus": "Factual Correctness",
+    "scores": {
+      "GPT-3.5:": 10,
+      "GPT-4:": 10
+    },
+    "hallucinations": [],
+    "winner": "",
+    "costs": {
+      "GPT-3.5": 1.5,
+      "GPT-4": 90.0
+    }
+  },
+  {
+    "timestamp": "2025-08-02T13:48:49.529424",
+    "prompt": "Summarize the book 'The Silent Universe' by J.K. Dalwick.",
+    "models_tested": [
+      "GPT-3.5",
+      "GPT-4",
+      "Mistral"
+    ],
+    "judge_model": "GPT-4",
+    "evaluation_focus": "Factual Correctness",
+    "scores": {
+      "GPT-3.5 Turbo:": 0,
+      "GPT-4:": 10,
+      "Mistral:": 0
+    },
+    "hallucinations": [
+      "GPT-3.5"
+    ],
+    "winner": "GPT-4",
+    "costs": {
+      "GPT-3.5": 1.5,
+      "GPT-4": 90.0
+    }
+  }
+]

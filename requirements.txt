@@ -1,0 +1,6 @@
+gradio
+openai
+pandas
+altair
+python-dotenv
+
